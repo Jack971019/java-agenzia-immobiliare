@@ -56,10 +56,10 @@ public class AgenziaImmobiliare {
 
     // metodo per restituire l'immobile che ha avuto il maggior numero di persone interessate
 
-    public static List<Immobili> maggiorInteresse(List<Immobili> immobili){
+    public  List<Immobili> maggiorInteresse(){
         List<Immobili> maggiorInteresse = new ArrayList<>();
         int maggiorNumeroPersoneInteressate = 0;
-        for(Immobili i : immobili){
+        for(Immobili i : listaImmobili){
             int personeInteressate = i.getNumeroPersoneInteressate();
             if(personeInteressate > maggiorNumeroPersoneInteressate){
                 maggiorNumeroPersoneInteressate = personeInteressate;

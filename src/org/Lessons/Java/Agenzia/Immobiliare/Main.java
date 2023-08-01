@@ -3,6 +3,44 @@ package org.Lessons.Java.Agenzia.Immobiliare;
 public class Main {
     public static void main(String[] args) {
 
+        Abitazione a1 = new Abitazione("re534tr", "piazza wagner 4", 20789, "milano", 180, 60, 6,2);
+
+        Villa v1 = new Villa()
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*public static void main(String[] args) {
+
         Abitazione a1 = new Abitazione("fr435tr", "via pincopallo 14", 29876,"milano", 300, 100, 6, 2);
         Abitazione a2 = new Abitazione("ft568ui", "via pincopallo 14", 29876,"milano", 320, 100, 6, 2);
         Abitazione a3 = new Abitazione("fp097mg", "via pincopallo 14", 29876,"milano", 200, 100, 6, 2);
@@ -28,5 +66,5 @@ public class Main {
 
 
 
-    }
+    }*/
 }
