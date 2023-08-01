@@ -10,8 +10,8 @@ public class Abitazione extends Immobili{
 
     // COSTRUTTORI
 
-    public Abitazione(String codice, String indirizzo, int cap, String city, int squaremeters, int numeroDiVani, int numeroDiBagni) {
-        super(codice, indirizzo, cap, city, squaremeters);
+    public Abitazione(String codice, String indirizzo, int cap, String city, int squaremeters, int numeroPersoneInteressate, int numeroDiVani, int numeroDiBagni) {
+        super(codice, indirizzo, cap, city, squaremeters, numeroPersoneInteressate);
         this.numeroDiVani = numeroDiVani;
         this.numeroDiBagni = numeroDiBagni;
     }
@@ -19,5 +19,23 @@ public class Abitazione extends Immobili{
 
     // GETTER AND SETTER
 
+    public int getNumeroDiVani() {
+        return numeroDiVani;
+    }
+
+    public int getNumeroDiBagni() {
+        return numeroDiBagni;
+    }
+
+
     // METODI
+
+
+    @Override
+    public String toString() {
+        return super.toString()+"Abitazione{" +
+                "numeroDiVani=" + numeroDiVani +
+                ", numeroDiBagni=" + numeroDiBagni +
+                '}';
+    }
 }
