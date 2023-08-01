@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6550dbdb-c94e-415e-80f4-8beb657b54b2" name="Changes" comment="added maggiorInteresse method in AgenziaImmobiliare class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/AgenziaImmobiliare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/AgenziaImmobiliare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/Main.java" afterDir="false" />
+    <list default="true" id="6550dbdb-c94e-415e-80f4-8beb657b54b2" name="Changes" comment="added main class with user interactive menu">
+      <change beforePath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/MainUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/MainUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +32,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/esercizi programmazione java/java-agenzia-immobiliare"
+    "last_opened_file_path": "C:/esercizi programmazione java/java-flotta-veicoli"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainUser">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Lessons.Java.Agenzia.Immobiliare.Main" />
       <module name="java-agenzia-immobiliare" />
@@ -51,8 +49,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Lessons.Java.Agenzia.Immobiliare.MainUser" />
+      <module name="java-agenzia-immobiliare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Lessons.Java.Agenzia.Immobiliare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainUser" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -130,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690898341400</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tested trovaUnImmobile and maggiorInteresse methods in main">
+      <option name="closed" value="true" />
+      <created>1690901134850</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690901134850</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added main class with user interactive menu">
+      <option name="closed" value="true" />
+      <created>1690904547713</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690904547713</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,7 +169,9 @@
     <MESSAGE value="added reimpostasuperfici method in immobili and villa classes" />
     <MESSAGE value="adjusted to string method to print without &quot;{}&quot;" />
     <MESSAGE value="added maggiorInteresse method in AgenziaImmobiliare class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added maggiorInteresse method in AgenziaImmobiliare class" />
+    <MESSAGE value="tested trovaUnImmobile and maggiorInteresse methods in main" />
+    <MESSAGE value="added main class with user interactive menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="added main class with user interactive menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

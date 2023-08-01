@@ -63,12 +63,20 @@ public class MainUser {
 
             } else if (answer.equalsIgnoreCase("N")) {
                 System.out.println("grazie per essert rivolto a noi, a presto!");
+                break;
 
             } else {
                 System.out.println("scelta non valida prego riprovare");
+
             }
 
         }
+
+        System.out.println("l'immobile che hai cercato è:" + agenziaImmobiliare.trovaUnImmobileConCodice("re123re"));
+
+        System.out.println("ci sono" + agenziaImmobiliare.contaImmobili() + "immobili");
+
+        System.out.println("l'immobile con maggior interesse è:" + agenziaImmobiliare.maggiorInteresse());
 
 
 
