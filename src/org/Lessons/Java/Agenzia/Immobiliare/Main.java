@@ -22,7 +22,8 @@ public class Main {
         agenziaImmobiliare.aggiungiImmobile(b2);
         agenziaImmobiliare.aggiungiImmobile(v1);
 
-        System.out.println(agenziaImmobiliare.trovaUnImmobileConCodice("by730lz"));
+        System.out.println("Sono presenti" + "\s" + agenziaImmobiliare.contaImmobili()+ "\s" + "immobili nel sistema");
+        System.out.println("hai selezionato" + "\s" + agenziaImmobiliare.trovaUnImmobileConCodice("by730lz"));
 
 
     }

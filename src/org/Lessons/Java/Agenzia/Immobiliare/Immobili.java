@@ -54,7 +54,7 @@ public class Immobili {
 
     @Override
     public String toString() {
-        return "Immobili" +
+        return
                 "codice='" + codice + '\'' +
                 ", indirizzo='" + indirizzo + '\'' +
                 ", cap=" + cap +

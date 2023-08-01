@@ -41,6 +41,17 @@ public class AgenziaImmobiliare {
         return immobileCercato;
     }
 
+    // metodo per contare tutti gli immobili
+
+
+    public int contaImmobili(){
+        int count = 0;
+        for(Immobili immobili : listaImmobili){
+            count ++;
+        }
+        return count;
+    }
+
 
 
     // metodo per restituire l'immobile che ha avuto il maggior numero di persone interessate
