@@ -30,13 +30,9 @@ public class Main {
         agenziaImmobiliare.trovaUnImmobileConCodice("re534tr").miPiaceImmobile();
 
 
-        System.out.println(agenziaImmobiliare.trovaUnImmobileConCodice("re534tr"));
+        System.out.println("hai selezionato" + agenziaImmobiliare.trovaUnImmobileConCodice("re534tr"));
 
         System.out.println(agenziaImmobiliare.maggiorInteresse());
-
-
-
-
 
     }
 
