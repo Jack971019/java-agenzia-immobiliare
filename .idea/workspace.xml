@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6550dbdb-c94e-415e-80f4-8beb657b54b2" name="Changes" comment="added reimpostasuperfici method in immobili and villa classes">
+    <list default="true" id="6550dbdb-c94e-415e-80f4-8beb657b54b2" name="Changes" comment="adjusted to string method to print without &quot;{}&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/AgenziaImmobiliare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/AgenziaImmobiliare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/Immobili.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/Immobili.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/esercizi programmazione java/java-agenzia-immobiliare"
   }
 }]]></component>
   <component name="RunManager">
@@ -105,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690885985761</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adjusted to string method to print without &quot;{}&quot;">
+      <option name="closed" value="true" />
+      <created>1690887549032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690887549032</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,6 +122,7 @@
     <MESSAGE value="modifided classes and constructors" />
     <MESSAGE value="added and verified metod search immobile from code" />
     <MESSAGE value="added reimpostasuperfici method in immobili and villa classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added reimpostasuperfici method in immobili and villa classes" />
+    <MESSAGE value="adjusted to string method to print without &quot;{}&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted to string method to print without &quot;{}&quot;" />
   </component>
 </project>

@@ -49,6 +49,10 @@ public class Immobili {
         this.squaremeters = squaremeters;
     }
 
+    public int getNumeroPersoneInteressate() {
+        return numeroPersoneInteressate;
+    }
+
     // METODI
 
 
@@ -69,5 +73,11 @@ public class Immobili {
     }
 
     // aggiungere il metodo per incremenatre il numero dell persone interessate
+
+    public void miPiaceImmobile(){
+        this.numeroPersoneInteressate++;
+    }
+
+
 
 }

@@ -27,8 +27,8 @@ public class Villa extends Abitazione {
 
     @Override
     public String toString() {
-        return super.toString()+"Villa" +
-                "metriQuadriGiardino=" + metriQuadriGiardino;
+        return super.toString()+ "\s"+ "Villa" + "\s"+
+                "metriQuadriGiardino=" + "\s" + metriQuadriGiardino;
     }
 
 

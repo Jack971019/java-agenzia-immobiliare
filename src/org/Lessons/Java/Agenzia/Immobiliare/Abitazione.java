@@ -33,8 +33,8 @@ public class Abitazione extends Immobili{
 
     @Override
     public String toString() {
-        return super.toString()+"Abitazione" +
-                "numeroDiVani=" + numeroDiVani +
-                ", numeroDiBagni=" + numeroDiBagni;
+        return super.toString()+ "\s"+"Abitazione" + "\s" +
+                "numeroDiVani=" + "\s" + numeroDiVani + "\s"+
+                ", numeroDiBagni=" + "\s" + numeroDiBagni;
     }
 }

@@ -4,11 +4,11 @@ public class Main {
     public static void main(String[] args) {
 
         Abitazione a1 = new Abitazione("fr435tr", "via pincopallo 14", 29876,"milano", 300, 100, 6, 2);
-        Abitazione a2 = new Abitazione("ft568ui", "via pincopallo 14", 29876,"milano", 300, 100, 6, 2);
-        Abitazione a3 = new Abitazione("fp097mg", "via pincopallo 14", 29876,"milano", 300, 100, 6, 2);
+        Abitazione a2 = new Abitazione("ft568ui", "via pincopallo 14", 29876,"milano", 320, 100, 6, 2);
+        Abitazione a3 = new Abitazione("fp097mg", "via pincopallo 14", 29876,"milano", 200, 100, 6, 2);
 
         Box b1 = new Box("gy647jf", "via pollo 3", 20876, "milano", 45, 68, 2);
-        Box b2 = new Box("gj035sd", "via pollo 3", 20876, "milano", 45, 68, 2);
+        Box b2 = new Box("gj035sd", "via pollo 3", 20875, "milano", 45, 69, 2);
 
         Villa v1 = new Villa("by730lz", "piazza roma 5", 20788, "milano", 500, 200, 8, 4, 250);
 
@@ -24,6 +24,8 @@ public class Main {
 
         System.out.println("Sono presenti" + "\s" + agenziaImmobiliare.contaImmobili()+ "\s" + "immobili nel sistema");
         System.out.println("hai selezionato" + "\s" + agenziaImmobiliare.trovaUnImmobileConCodice("by730lz"));
+
+
 
 
     }
