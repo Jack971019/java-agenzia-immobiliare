@@ -27,8 +27,7 @@ public class Box extends Immobili {
 
     @Override
     public String toString() {
-        return super.toString()+"Box{" +
-                "numPostiAuto=" + numPostiAuto +
-                '}';
+        return super.toString()+"Box" +
+                "numPostiAuto=" + numPostiAuto;
     }
 }

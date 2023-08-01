@@ -27,11 +27,15 @@ public class Villa extends Abitazione {
 
     @Override
     public String toString() {
-        return super.toString()+"Villa{" +
-                "metriQuadriGiardino=" + metriQuadriGiardino +
-                '}';
+        return super.toString()+"Villa" +
+                "metriQuadriGiardino=" + metriQuadriGiardino;
     }
 
 
     // aggiungere l'overload del metodo per aggiungere superfici dell classe immibili
+
+    public void reimpostaSuperfici(int squaremeters, int metriQuadriGiardino){
+        this.metriQuadriGiardino = metriQuadriGiardino;
+        setSquaremeters(metriQuadriGiardino + squaremeters);
+    }
 }

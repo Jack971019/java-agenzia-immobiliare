@@ -45,22 +45,28 @@ public class Immobili {
         return squaremeters;
     }
 
+    public void setSquaremeters(int squaremeters) {
+        this.squaremeters = squaremeters;
+    }
 
     // METODI
 
 
     @Override
     public String toString() {
-        return "Immobili{" +
+        return "Immobili" +
                 "codice='" + codice + '\'' +
                 ", indirizzo='" + indirizzo + '\'' +
                 ", cap=" + cap +
                 ", city='" + city + '\'' +
-                ", squaremeters=" + squaremeters +
-                '}';
+                ", squaremeters=" + squaremeters;
     }
 
     // aggiungere il metodo reimposta superfici
+
+    public void reimpostaSuperfici(int squaremeters){
+        this.squaremeters = squaremeters;
+    }
 
     // aggiungere il metodo per incremenatre il numero dell persone interessate
 
