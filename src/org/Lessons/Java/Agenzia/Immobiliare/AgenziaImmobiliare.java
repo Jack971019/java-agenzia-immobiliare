@@ -19,4 +19,29 @@ public class AgenziaImmobiliare {
     // GETTER AND SETTER
 
     // METODI
+
+    // aggiungere un immobile alla lista
+    public  void aggiungiImmobile(Immobili immobili){
+        listaImmobili.add(immobili);
+    }
+
+    // riceracre un immobile tramite il codice alfanumerico
+
+    public Immobili trovaUnImmobileConCodice (String codice){
+        boolean trovato = false;
+        int contatore = 0;
+        Immobili immobileCercato = null;
+        while (!trovato && contatore < listaImmobili.size()){
+            if (codice.equals(listaImmobili.get(contatore).getCodice())){
+                immobileCercato = listaImmobili.get(contatore);
+                trovato = true;
+            }
+            contatore ++;
+        }
+        return immobileCercato;
+    }
+
+
+
+    // metodo per restituire l'immobile che ha avuto il maggior numero di persone interessate
 }
