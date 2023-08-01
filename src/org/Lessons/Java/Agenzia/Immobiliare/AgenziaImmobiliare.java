@@ -28,7 +28,15 @@ public class AgenziaImmobiliare {
     // riceracre un immobile tramite il codice alfanumerico
 
     public Immobili trovaUnImmobileConCodice (String codice){
-        boolean trovato = false;
+        for (Immobili immobili : listaImmobili){
+            if (codice.equals(immobili.getCodice())){
+
+                return immobili;
+            }
+
+        }
+        return  null;
+       /*boolean trovato = false;
         int contatore = 0;
         Immobili immobileCercato = null;
         while (!trovato && contatore < listaImmobili.size()){
@@ -38,7 +46,7 @@ public class AgenziaImmobiliare {
             }
             contatore ++;
         }
-        return immobileCercato;
+        return immobileCercato;*/
     }
 
     // metodo per contare tutti gli immobili

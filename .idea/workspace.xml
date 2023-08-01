@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6550dbdb-c94e-415e-80f4-8beb657b54b2" name="Changes" comment="adjusted to string method to print without &quot;{}&quot;">
+    <list default="true" id="6550dbdb-c94e-415e-80f4-8beb657b54b2" name="Changes" comment="added maggiorInteresse method in AgenziaImmobiliare class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/Immobili.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/Immobili.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/AgenziaImmobiliare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/AgenziaImmobiliare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Lessons/Java/Agenzia/Immobiliare/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690887549032</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added maggiorInteresse method in AgenziaImmobiliare class">
+      <option name="closed" value="true" />
+      <created>1690897652119</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690897652119</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added maggiorInteresse method in AgenziaImmobiliare class">
+      <option name="closed" value="true" />
+      <created>1690898341400</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690898341400</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +140,17 @@
     <MESSAGE value="added and verified metod search immobile from code" />
     <MESSAGE value="added reimpostasuperfici method in immobili and villa classes" />
     <MESSAGE value="adjusted to string method to print without &quot;{}&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusted to string method to print without &quot;{}&quot;" />
+    <MESSAGE value="added maggiorInteresse method in AgenziaImmobiliare class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added maggiorInteresse method in AgenziaImmobiliare class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
